@@ -7,7 +7,6 @@
   </synonym>
   <subsystems>АдресныйКлассификатор</subsystems>
   <subsystems>БазоваяФункциональность</subsystems>
-  <subsystems>КонтрольРаботыПользователей</subsystems>
   <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>ГенерацияШтрихкода</subsystems>
   <subsystems>ГрафикиРаботы</subsystems>
@@ -19,6 +18,7 @@
   <subsystems>КалендарныеГрафики</subsystems>
   <subsystems>КонструкторФормул</subsystems>
   <subsystems>КонтактнаяИнформация</subsystems>
+  <subsystems>КонтрольРаботыПользователей</subsystems>
   <subsystems>НапоминанияПользователя</subsystems>
   <subsystems>НастройкаПорядкаЭлементов</subsystems>
   <subsystems>НастройкиПрограммы</subsystems>

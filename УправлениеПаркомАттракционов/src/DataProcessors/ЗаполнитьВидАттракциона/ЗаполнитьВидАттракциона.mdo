@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1345b1a-9ca1-4cb9-a337-83a4b39b8327">
+  <producedTypes>
+    <objectType typeId="b79b4b1b-2cec-4706-8c58-b8a0b89efb82" valueTypeId="0ae93794-57d4-4302-8d52-beb677e898ff"/>
+    <managerType typeId="5e0c4e21-8432-41a6-baa3-55101279225e" valueTypeId="746d6bfd-7203-4f9c-92e8-9afd71b94f20"/>
+  </producedTypes>
+  <name>ЗаполнитьВидАттракциона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить вид аттракциона</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнитьВидАттракциона.Form.Форма</defaultForm>
+  <tabularSections uuid="d6f5fc48-8e8c-41a5-aec8-81d6ee3e3554">
+    <producedTypes>
+      <objectType typeId="a282a71d-6b6a-4229-9d9b-d1a3d2f85250" valueTypeId="ebb5be83-194a-400f-b130-53b26b8b9133"/>
+      <rowType typeId="a4971b85-5d04-4b91-b5c0-71446bef7514" valueTypeId="3ac377a3-a350-442c-acd0-82bf5f6af677"/>
+    </producedTypes>
+    <name>Ремонты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонты</value>
+    </synonym>
+    <attributes uuid="c88661a5-3fd6-4e59-a76e-df242f03d4e6">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ГПА_РемонтыАттракционов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d78d3bf3-99d0-44b5-9032-9cc888af5f2e">
+      <name>Аттракцион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аттракцион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аттракционы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="75e3521d-f751-4662-aee4-0ac1bbdc660e">
+      <name>ВидАттракциона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид аттракциона</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыАттракционов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f4eb5d23-f403-4096-85b2-cca6843411d1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

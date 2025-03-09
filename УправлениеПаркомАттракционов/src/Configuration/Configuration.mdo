@@ -1321,8 +1321,8 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
-  <documents>Document.Отсутствие</documents>
   <documents>Document.ГПА_РемонтыАттракционов</documents>
+  <documents>Document.Отсутствие</documents>
   <documents>Document.ПланированиеОтсутствия</documents>
   <documents>Document.ПокупкаАттракциона</documents>
   <documents>Document.ПосещениеАттракциона</documents>
@@ -1413,6 +1413,7 @@
   <dataProcessors>DataProcessor.ЗаменаИОбъединениеЭлементов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафиковРаботы</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеКалендарныхГрафиков</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнитьВидАттракциона</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаРазрешенийНаИспользованиеВнешнихРесурсов</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
