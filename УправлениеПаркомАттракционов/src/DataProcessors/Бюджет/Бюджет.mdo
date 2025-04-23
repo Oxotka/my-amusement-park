@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dd28596-7a1f-4c60-a8ab-33cc1b4f27ae">
+  <producedTypes>
+    <objectType typeId="af522e3c-45bb-4414-b259-b225c085cda7" valueTypeId="d3f4f085-3ea8-4035-bac8-70de7cd9b76c"/>
+    <managerType typeId="2e7f459e-7819-4a39-aa38-f10cca0b9c09" valueTypeId="4853fe1d-cf90-404e-967d-01557047649a"/>
+  </producedTypes>
+  <name>Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Бюджет.Form.Форма</defaultForm>
+  <tabularSections uuid="9c570cdd-0136-4d6e-b0c9-041b768b1a85">
+    <producedTypes>
+      <objectType typeId="2b1567e1-4cae-49eb-b724-496a8064211a" valueTypeId="4fd51797-6587-4ecc-b63e-3943471e488e"/>
+      <rowType typeId="12e70508-6d6f-4e4b-9265-5e2e221973ec" valueTypeId="ba306621-a578-473c-98bc-7019f7004947"/>
+    </producedTypes>
+    <name>Доходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы</value>
+    </synonym>
+    <attributes uuid="84ad199a-49ae-49aa-a99a-ff8c50abac09">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="289c1689-cbb7-4a9f-a365-1074224b8830">
+      <name>СуммаЯнварь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма январь</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7b1c5e2d-9b08-4427-800d-cb99ee50b89c">
+      <name>СуммаФевраль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма февраль</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1a8916e6-4bf8-4f70-bdab-899ed0e5f163">
+      <name>СуммаМарт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма март</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c2e4a9aa-075d-4f60-9c12-c93d2038b1ed">
+    <producedTypes>
+      <objectType typeId="aeb874bd-ffe5-49e6-bbdc-809bd59bec29" valueTypeId="239a05bd-9aa9-43ce-87af-2e9b84b539fc"/>
+      <rowType typeId="a306da72-1728-44a6-9d1b-4c5a4bc090a2" valueTypeId="661a9641-ecef-4711-9ddb-9bf63f2706f9"/>
+    </producedTypes>
+    <name>Расходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы</value>
+    </synonym>
+    <attributes uuid="66b21029-c9c5-4230-9ac5-a734592353c2">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6f5c3e54-e863-4104-8be6-61937350cee9">
+      <name>СуммаЯнварь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма январь</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="491eb880-7854-4a70-ac26-e238678c820d">
+      <name>СуммаФевраль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма февраль</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a6fa66fc-ab4f-405c-bf9f-31b6013298a7">
+      <name>СуммаМарт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма март</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d39a843f-7450-4c1f-ab33-7908f9d6eeb1">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
